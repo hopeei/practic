@@ -1,61 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burgers Food Truck</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo List</title>
 </head>
 <body>
-    <header class="header">
-      <div class="header__contacts">
-        <p class="header__address">Los Angeles Gournadi, 1230 Bariasl</p>
-        <a class= "header__email"></a>href ="malito:freddy.burgers@email.com">freddy.burgers@email.com</a>
-        <p class="header__hours">Hours: 9:00 AM - 5:00 PM</p>
-        </div>
-        <nav class="header__nav"> style =
-            <a href="#">header__logo-containers<
-            <img class="header_-logo" width="252" src="image/Logo1 (1).svg" alt="Burger Logo">
-            </a>
-            <div class="header__menu">
-                <a href="about" class="header__menu-item">About Us</a>
-                <a href="menu" class="header__menu-item">Menu</a>
-                <a href="catering" class="header__menu-item">Catering</a>
-                <a href="contacts" class="header__menu-item">Contacts</a>
-
-            </div>
-            <div class="header__icons">
-                <a href="#" class="header__icons-item" width="40">
-                <img src="image/facebook-icons" alt="Facebook">
-            </a>
-        
-            </div>
-
-
-         </nav>
-          <div class="header__banner">
-            <h1 class="header__title">FREDDY BURGERS</h1>
-            <p class="header__slogan">YOU HAVE A PARTY — WE HAVE TASTY BURGERS!</p>
-            <p class="header__text">Look out for our food truck on the streets of Los Angeles, order delivery or catering, and enjoy the taste of juicy burgers!</p>
-            <div class="header__order">
-                <a href="contacts#order" class="header__oder-button button">Order Now</a>
-                <div class="header__call-now">
-                    <img src="image/phone (1) 1.svg" alt="phone">
-                    <div class="header__phone">
-                        <h4>Call us</h4>
-                        <a href="+tell:12345678900">+ 1 (234) 567 89 00</a>
-                    </div>
-                </div>
-
-            </div>
-          </div>
-    </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
+  <div class="todo">
+    <div class="todo__container">
+      <h1 class="todo__title">My WorkDay</h1>
+      <div class="todo__completion-work">
+        <span class="todo__completion"  id="completion">Completion: 0%</span>
+      </div>
+      <div class="todo__more">
+        <input class="todo__input" type="text" id="taskInput" placeholder="Enter your task">
+        <button class="todo__button" id="addButton">Add Task</button>
+      </div>
+      <ul id="taskList" class="todo__list"></ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
-</html>
+</html> 
+
